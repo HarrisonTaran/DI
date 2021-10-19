@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(100, 95, 75);
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 0;
+}
+
+/* navigation */
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav ul li{
+    padding: 3em;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+/* navigation */
+
+
+
+
+
+/* masthead */
+    .masthead{
+        background-image: url("img/masthead1.jpg");
+        height: 400px;
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+    }
+/* masthead */
+
+
+
+
+
+/* overview */
+.ovTop p{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.overview{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}
+
+.photo{
+    
+}
+
+.ov{
+    background-color: cornflowerblue;
+}
+/* overview */
+
+
+
+
+
+/* boxs */
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.box{
+    background-color: cornflowerblue;
+    padding: 6em;
+    text-align: center;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box:hover{
+    background-color: darkgray;
+}
+/* boxs */
+
+
+
+
+
+/* footer */
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: cornflowerblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer{
+    text-align: center;
+}
+/* footer */
