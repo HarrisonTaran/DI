@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+    background-image: linear-gradient(red, yellow);
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper{
+    margin:auto;
+    width: 50%;
+}
+
+.wrapper input{
+    text-align: center;
+}
