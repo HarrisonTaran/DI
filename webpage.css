@@ -1,0 +1,452 @@
+.nav img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    background-image: url("img/img/masthead.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 900px;
+    
+
+}
+
+.nav ul{
+    padding-bottom: 90px;
+    padding-top: 20px;
+    border: none;
+    margin: auto; 
+    display: block; 
+    width: 70%;
+}
+
+.nav ul li {
+    display: inline;
+    text-align: center;
+    z-index: 2;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:rgb(250, 252, 252);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 36px;
+    
+   text-align: center;
+   -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: rgb(252, 162, 197);
+  
+}
+
+.nav li:hover{
+    color: rgb(252, 162, 197);
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+    border: 5px lightblue;
+}
+
+.container .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: seashell;
+    transition: 0.5s;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    
+    
+}
+
+.container .box:hover .icon {
+    top: 80px;
+    
+}
+
+.box h3{
+    text-align: center;
+}
+
+.box h3 a{
+    text-decoration: none;
+    color: rgb(252, 162, 197);
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    top: -500px;
+}
+
+
+.text{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial,  sans-serif;
+    font-weight: bolder;
+    color:white;
+}
+
+.video{
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    width: 1200px;
+    padding: 69px;
+    position: relative;
+    top: -170px;
+
+}
+
+.video iframe{
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+}
+
+.vids{
+    border: 10px solid pink;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+
+.poses img{
+    height: 50%;
+    width: 50%;
+    /*position: relative; */
+    text-align: center;
+    margin: auto;
+    padding-left: 270px;
+}
+
+.logo img{
+    margin: 0 auto;
+    
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    width: 50%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    
+   
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr, 4fr, 2fr;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(252, 162, 197);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+ }
+
+ .footer p{
+     font-size: 20px;
+ }
+
+ .footer p a{
+     text-decoration: none;
+     color: white;
+ }
+
+ .footer p a:hover{
+    -webkit-text-stroke: 1px white;
+    color:rgb(252, 162, 197)
+
+ }
+  
+  .column {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 100px; 
+
+  }
+
+  .column h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .column p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .row{
+     border:rgb(123, 162, 173);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+   /*signUp.css; */
+
+   body{
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    color: rgb(252, 162, 197);
+    font-size: 60px;
+}
+
+.box1 h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(252, 162, 197);
+}
+
+.box2 h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(252, 162, 197);
+}
+
+.box3 h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(252, 162, 197) ;
+}
+
+.box4 h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(252, 162, 197);
+}
+
+input[type="text"]{
+    margin: 0 auto;
+    display:block;
+    border-radius: 4px;
+}
+
+input[type="email"]{
+    margin: 0 auto;
+    display:block;
+    border-radius: 4px;
+}
+
+button{
+    height: 50px;
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(252, 162, 197);
+    box-shadow: none;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(252, 162, 197) ;
+}
+
+button:hover{
+    background-color: rgb(252, 162, 197);
+    color: white;
+}
+
+form input{
+    height: 50px;
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(252, 162, 197);
+    box-shadow: none;
+}
+
+form input:hover{
+    background-color:rgb(252, 162, 197) ;
+    color: white;
+}
+
+/*paypal.css; */
+.wrapper h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    color: rgb(252, 162, 197);
+    font-size: 40px;
+}
+
+.goback input{
+    height: 50px;
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(252, 162, 197);
+    box-shadow: none;
+}
+
+.goback input:hover, a:hover{
+    background-color: rgb(252, 162, 197);
+    color: white;
+}
+
+
+/*about.css; */
+
+section{
+    float: right;
+    width: 75%;
+}
+
+aside{
+    float: left;
+    width: 25%;
+    height: 700px;
+    background-color: rgb(252, 162, 197);
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Cuprum', sans-serif;
+    text-shadow: 2px 2px #555353;
+}
+
+section img{
+    max-width: 1000px;
+    max-height: 700px;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapperAbout{
+    background-color: white ;
+    max-height: 1000px;
+    height: 100%;
+}
+
+/*Videos.css; */
+
+.videos {
+    display: grid;
+    align-content: center;
+   
+    padding: 69px;
+    position: relative;
+   
+}
+
+.videos iframe{
+    margin-right: auto;
+    margin-left: auto;
+ 
+}
+
+.conContainer{
+    display: grid;
+    align-items: center;
+}
+
+.conContainer h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(252, 162, 197);
+}
+
+.conContainer p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(252, 162, 197);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr, 2fr;
+}
+
+.section h2{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(252, 162, 197);
+    font-weight: bold;
+}
+
+.section p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(252, 162, 197);
+}
+
+.section h2{
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(252, 162, 197);
+}
+
+input{
+    border-radius: 0%;
+    border: 2px solid pink;
+    height: 30px;
+    border:2px solid rgb(252, 162, 197);
+    box-shadow: none;
+    
+}
+
+#submit{
+    box-shadow: none;
+    border: 2px solid rgb(252, 162, 197)
+}
